@@ -10,7 +10,7 @@ app = FastAPI(
 @app.get("/", tags=["root"])
 def home():
     return {
-        "message": "Hello from FastAPI!",
+        "message": "Hello from FastAPI-v1!",
         "platform": "Kubernetes",
     }
 
